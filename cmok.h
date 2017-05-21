@@ -32,7 +32,7 @@
 /*! \brief Reset \c CMOK_FUN(name) to \c CMOK_FUN_DEF(name). */
 #define CMOK_RESET(name)                                             \
     do {                                                             \
-        CMOK_FUN(name) = CMOCK_FUN_DEF(name);                        \
+        CMOK_FUN(name) = CMOK_FUN_DEF(name);                         \
     } while (0)
 #endif
 
